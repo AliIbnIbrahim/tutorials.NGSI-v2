@@ -26,7 +26,26 @@ The following NGSI-v2 and NGSI-LD Data models are used within the tutorials:
 -   <img src="https://json-ld.org/favicon.ico" align="center" height="25"/>
     [Smart Data Models](https://smartdatamodels.org)
 
+
+## Systems:
+Tested Ubuntu 22.04 8G disk 4GRam
+- bare machine
+- virtual box
+- Openstack
+- LXC (proxmox-pve)
+
+next test:
+Debian 11
+
 ## Install
+
+To update upgrade and install needed tools:
+```console
+sudo apt update 
+sudo apt upgrade
+sudo apt install git
+```
+
 
 To download the full set of tutorials, simply clone this repository:
 
@@ -43,18 +62,53 @@ allows to different components isolated into their respective environments.
 
 -   To install Docker on Windows follow the instructions [here](https://docs.docker.com/docker-for-windows/)
 -   To install Docker on Mac follow the instructions [here](https://docs.docker.com/docker-for-mac/)
--   To install Docker on Linux follow the instructions [here](https://docs.docker.com/install/)
+
+#### Install Docker Engine on Ubuntu
+-   from this  [link](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)
+Install using the repository
+Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
+
+1. Set up the repository:  Update the apt package index and install packages to allow apt to use a repository over HTTPS:
+
+```console
+ sudo apt-get update
+ sudo apt-get install ca-certificates curl gnupg lsb-release
+```
+2. Add Docker’s official GPG key:
+
+```console
+ sudo mkdir -p /etc/apt/keyrings
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+```
+3. Use the following command to set up the repository:
+
+```console
+ echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+4. Install Docker Engine
+Update the apt package index:
+
+```console
+sudo apt-get update
+```
+ 
+  Install latest Docker Engine, containerd, and Docker Compose:
+  
+```console
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
 
 **Docker Compose** is a tool for defining and running multi-container Docker applications. A series of `*.yaml` files
 are used configure the required services for the application. This means all container services can be brought up in a
-single command. Docker Compose is installed by default as part of Docker for Windows and Docker for Mac, however Linux
-users will need to follow the instructions found [here](https://docs.docker.com/compose/install/)
+single command. 
 
 You can check your current **Docker** and **Docker Compose** versions using the following commands:
 
 ```console
-docker-compose -v
 docker version
+docker compose version
 ```
 
 Please ensure that you are using Docker version 20.10 or higher and Docker Compose 1.29 or higher and upgrade if
@@ -89,7 +143,7 @@ Scala code into a JAR file.
 
 ### Core Context Management: NGSI-v2 Fundamentals
 
-&nbsp; 101. [Getting Started](https://github.com/FIWARE/tutorials.Getting-Started/tree/NGSI-v2)<br/> &nbsp; 102.
+&nbsp; 101. [Getting Started](https://github.com/AliIbnIbrahim/tutorials.Getting-Started/tree/NGSI-v2)<br/> &nbsp; 102.
 [Entity Relationships](https://github.com/FIWARE/tutorials.Entity-Relationships/tree/NGSI-v2)<br/> &nbsp; 103.
 [CRUD Operations](https://github.com/FIWARE/tutorials.CRUD-Operations/tree/NGSI-v2)<br/> &nbsp; 104.
 [Context Providers](https://github.com/FIWARE/tutorials.Context-Providers/tree/NGSI-v2)<br/> &nbsp; 105.
