@@ -143,7 +143,7 @@ Scala code into a JAR file.
 
 ### Core Context Management: NGSI-v2 Fundamentals
 
-&nbsp; 101. [Getting Started](https://github.com/AliIbnIbrahim/tutorials.Getting-Started/tree/NGSI-v2)<br/> &nbsp; 102.
+&nbsp; 101. [Getting Started](https://github.com/AliIbnIbrahim/tutorials.Getting-Started)<br/> &nbsp; 102.
 [Entity Relationships](https://github.com/FIWARE/tutorials.Entity-Relationships/tree/NGSI-v2)<br/> &nbsp; 103.
 [CRUD Operations](https://github.com/FIWARE/tutorials.CRUD-Operations/tree/NGSI-v2)<br/> &nbsp; 104.
 [Context Providers](https://github.com/FIWARE/tutorials.Context-Providers/tree/NGSI-v2)<br/> &nbsp; 105.
