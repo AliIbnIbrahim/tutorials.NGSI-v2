@@ -225,3 +225,6 @@ Full instructions can be found within the [documentation](https://fiware-tutoria
 ## License
 
 [MIT](LICENSE) © 2018-2023 FIWARE Foundation e.V.
+
+https://choosealicense.com/licenses/
+
