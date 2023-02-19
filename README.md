@@ -37,6 +37,9 @@ Tested Ubuntu 22.04 8G disk 4GRam
 next test:
 Debian 11
 
+https://www.fosslinux.com/49959/install-docker-on-debian.htm
+
+
 ## Install
 
 To update upgrade and install needed tools:
