@@ -149,9 +149,9 @@ Scala code into a JAR file.
 &nbsp; 101. [Getting Started](https://github.com/AliIbnIbrahim/tutorials.Getting-Started)<br/> &nbsp; 102.
 [Entity Relationships](https://github.com/AliIbnIbrahim/tutorials.Entity-Relationships/tree/NGSI-v2)<br/> &nbsp; 103.
 [CRUD Operations](https://github.com/AliIbnIbrahim/tutorials.CRUD-Operations/tree/NGSI-v2)<br/> &nbsp; 104.
-[Context Providers](https://github.com/FIWARE/tutorials.Context-Providers/tree/NGSI-v2)<br/> &nbsp; 105.
-[Altering the Context Programmatically](https://github.com/FIWARE/tutorials.Accessing-Context/tree/NGSI-v2)<br/>
-&nbsp; 106. [Subscribing to Changes in Context](https://github.com/FIWARE/tutorials.Subscriptions/tree/NGSI-v2)
+[Context Providers](https://github.com/AliIbnIbrahim/tutorials.Context-Providers/tree/NGSI-v2)<br/> &nbsp; 105.
+[Altering the Context Programmatically](https://github.com/AliIbnIbrahim/tutorials.Accessing-Context/tree/NGSI-v2)<br/>
+&nbsp; 106. [Subscribing to Changes in Context](https://github.com/AliIbnIbrahim/tutorials.Subscriptions/tree/NGSI-v2)
 
 ### Internet of Things, Robots and third-party systems
 
